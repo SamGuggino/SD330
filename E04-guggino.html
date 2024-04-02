@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>E04-guggino</title>
+  <style>
+    #monitor {
+      border: 10px solid #000;
+      width: 600px;
+      height: 500px;
+      margin: 50px;
+      background-color: #ccc;
+      position: relative;
+    }
+
+    #screen {
+      width: 100%;
+      height: 100%;
+    }
+
+    #clock {
+      top: 20px;
+      right: 20px;
+      font-size: 20px;
+      position: absolute;
+      border: 2px solid black;
+    }
+
+    #temperature {
+      top: 20px;
+      left: 5px;
+      float: right;
+      up: 50px;
+      font-size: 20px;
+      position: absolute;
+      border: 2px solid black;
+    }
+
+    .bothButtons {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      float: left 50%;
+      width: 100%;
+      margin-left: 40%;
+    }
+
+    .button {
+      height: 30px;
+      color: #fff;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    #onButton {
+      background-color: #008819;
+      left: 20px;
+    }
+
+    #offButton {
+      background-color: #950000;
+      left: 120px;
+    }
+
+    #fridgeImage {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      width: 70%;
+      height: 75%;
+    }
+
+    #groceryList {
+      width: 31%;
+      margin: 5px;
+      float: right;
+    }
+
+    #googleHomepage {
+      float: right;
+      height: 250px;
+      position: relative;
+      right: -150px;
+      top: 250px;
+    }
+  </style>
+</head>
+
+<body onload="updateClock()">
+  <div id="monitor">
+    <div id="screen">
+      <div id="clock"></div>
+      <div id="temperature">45&deg;F <br> Partly Cloudy</div>
+      <div class="bothButtons">
+        <button class="button" id="onButton" onclick="onButton()">ON</button>
+        <button class="button" id="offButton" onclick="offButton()">OFF</button>
+      </div>
+      <div id="groceryList">
+        <h2><br>Grocery List</h2>
+        <ul>
+          <li><input type="text"></li>
+          <li><input type="text"></li>
+          <li><input type="text"></li>
+          <li><input type="text"></li>
+          <li><input type="text"></li>
+          <li><input type="text"></li>
+        </ul>
+      </div>
+      <img
+        src="https://static.semrush.com/blog/uploads/media/c5/d8/c5d899c34268c5bde3f08dfc7f98eb0d/2jM1fs6ywV6Sh96Q5WkNOiJVgChsgNEUDMJSb1spHfG0IUQxEGtOYx1FXhsyekWNSGiQLirlf9tlrK6SzqV5p25AMIXQo00s2ub2KqqcMfnywJfiE74w_ZZXny4FfsYkgKsfx4SSDNXENvA6VS3FhZoj8Zebk4jkE903fHxFxihUoNd6pt23x9TLwNc7zA.png"
+        id="googleHomepage">
+    </div>
+    <img src="https://aptokash.github.io/SD330-2/06-fridge.jpg" id="fridgeImage">
+  </div>
+
+  <script>
+    function onButton() {
+      document.getElementById('fridgeImage').style.display = 'block';
+    }
+
+    function offButton() {
+      document.getElementById('fridgeImage').style.display = 'none';
+    }
+
+    function updateClock() {
+      var now = new Date();
+      var hours = now.getHours();
+      var minutes = now.getMinutes();
+      var amPM = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      var timeString = hours + ':' + minutes + ' ' + amPM;
+      document.getElementById('clock').innerHTML = timeString;
+    }
+  </script>
+</body>
+
+</html>
