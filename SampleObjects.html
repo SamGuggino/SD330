@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <h2> Fetching a JSON File (from GitHub)
+    </h2>
+    <p id="info">
+        <script type="module">
+            let htmlString = "‹p> Fetching file: aptokash.github.io/SD330/SampleObjects.json";
+            htmlString += "<br› Loading into: 'data' multi-dimensional object (array)";
+            const response = await fetch("https://aptokash.github.io/SD330/SampleObjects.json");
+            const data = await response.json();
+            htmlString += "<P> The adult access is: " + data['userTypes']['adult']['access'];
+            document.getElementById('info').innerHTML += htmlString;
+
+
+            "userIDs": {
+                "tokash": {
+                    "name": "Andrew Tokash",
+                        "password": "12345678"
+                },
+                "marquez": {
+                    "name": "Gabriel Marquez",
+                        "password": "qwerty"
+                }
+            }
+
+
+let keys=Object.keys(data[userIDs]);
+for (let i in keys) {
+    let thiskey = keys[i];
+    htmlString += "<p> Thiskey = " + thiskey;
+}
+
+htmlString += "UserIDs in file: <ul>  <li></li>  </ul>"
+
+
+        </script>
+
+        <body>
+
+</html>
