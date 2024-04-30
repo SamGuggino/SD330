@@ -562,7 +562,7 @@
                 },
                 {
                     "number": 11,
-                    "type": "Faculty/Staff",
+                    "type": "Visitor",
                     "status": "Available",
                     "filled_datetime": "",
                     "reserved_datetime": ""
