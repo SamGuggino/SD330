@@ -1,0 +1,580 @@
+{
+    "parking_lots": [
+        {
+            "name": "Beck Place",
+            "map_filename": "beckPlace.jpeg",
+            "total_spaces": 50,
+            "comments": "Faculty/Staff, Resident, and Commuter parking",
+            "other_attributes": {
+                "security_cameras": true,
+                "handicap_spots": true
+            },
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 2,
+                    "type": "Faculty/Staff",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:00:00"
+                },
+                {
+                    "number": 3,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 4,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T08:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 5,
+                    "type": "Resident",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 6,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 7,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:15:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 8,
+                    "type": "Resident",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 9,
+                    "type": "Commuter",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 10,
+                    "type": "Commuter",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 11,
+                    "type": "Commuter",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:45:00"
+                },
+                {
+                    "number": 12,
+                    "type": "Commuter",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                }
+            ]
+        },
+        {
+            "name": "Midrise",
+            "map_filename": "midrise.jpeg",
+            "total_spaces": 50,
+            "comments": "Visitor parking",
+            "other_attributes": {
+                "security_cameras": true,
+                "handicap_spots": true
+            },
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "Visitor",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T08:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 2,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 3,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 4,
+                    "type": "Visitor",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:00:00"
+                },
+                {
+                    "number": 5,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 6,
+                    "type": "Visitor",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:15:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 7,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 8,
+                    "type": "Visitor",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 9,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 10,
+                    "type": "Visitor",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:45:00"
+                },
+                {
+                    "number": 11,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 12,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                }
+            ]
+        },
+        {
+            "name": "McCann",
+            "map_filename": "mccann.jpeg",
+            "total_spaces": 200,
+            "comments": "Faculty/Staff, Resident, and Commuter parking",
+            "other_attributes": {
+                "security_cameras": true,
+                "handicap_spots": true
+            },
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 2,
+                    "type": "Faculty/Staff",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:00:00"
+                },
+                {
+                    "number": 3,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 4,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 5,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T08:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 6,
+                    "type": "Resident",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 7,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 8,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:15:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 9,
+                    "type": "Resident",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 10,
+                    "type": "Commuter",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 11,
+                    "type": "Commuter",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 12,
+                    "type": "Commuter",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:45:00"
+                }
+            ]
+        },
+        {
+            "name": "North End",
+            "map_filename": "northEnd.jpeg",
+            "total_spaces": 150,
+            "comments": "Student Parking",
+            "other_attributes": {
+                "security_cameras": true,
+                "handicap_spots": true
+            },
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "Student",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T08:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 2,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 3,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 4,
+                    "type": "Student",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:00:00"
+                },
+                {
+                    "number": 5,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 6,
+                    "type": "Student",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:15:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 7,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 8,
+                    "type": "Student",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 9,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 10,
+                    "type": "Student",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:45:00"
+                },
+                {
+                    "number": 11,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 12,
+                    "type": "Student",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                }
+            ]
+        },
+        {
+            "name": "Fontaine",
+            "map_filename": "fontaine.jpeg",
+            "total_spaces": 50,
+            "comments": "Faculty/Staff, Resident, and Commuter parking with two Visitor spots",
+            "other_attributes": {
+                "security_cameras": true,
+                "handicap_spots": false
+            },
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "Faculty/Staff",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T08:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 2,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 3,
+                    "type": "Faculty/Staff",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:00:00"
+                },
+                {
+                    "number": 4,
+                    "type": "Faculty/Staff",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:15:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 5,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 6,
+                    "type": "Commuter",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 7,
+                    "type": "Commuter",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 8,
+                    "type": "Resident",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:45:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 9,
+                    "type": "Resident",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 10,
+                    "type": "Resident",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T10:00:00"
+                },
+                {
+                    "number": 11,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 12,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                }
+            ]
+        },
+        {
+            "name": "Donnelly",
+            "map_filename": "donnelly.jpeg",
+            "total_spaces": 100,
+            "comments": "Faculty/Staff and Visitor parking",
+            "other_attributes": {
+                "security_cameras": true,
+                "handicap_spots": true
+            },
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "Faculty/Staff",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:30:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 2,
+                    "type": "Faculty/Staff",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T08:45:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 3,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 4,
+                    "type": "Faculty/Staff",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T09:30:00"
+                },
+                {
+                    "number": 5,
+                    "type": "Faculty/Staff",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:45:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 6,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 7,
+                    "type": "Visitor",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T10:00:00"
+                },
+                {
+                    "number": 8,
+                    "type": "Visitor",
+                    "status": "Filled",
+                    "filled_datetime": "2024-04-29T09:15:00",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 9,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 10,
+                    "type": "Visitor",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 11,
+                    "type": "Faculty/Staff",
+                    "status": "Available",
+                    "filled_datetime": "",
+                    "reserved_datetime": ""
+                },
+                {
+                    "number": 12,
+                    "type": "Visitor",
+                    "status": "Reserved",
+                    "filled_datetime": "",
+                    "reserved_datetime": "2024-04-29T11:00:00"
+                }
+            ]
+        }
+    ]
+}
