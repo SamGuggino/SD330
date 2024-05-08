@@ -292,7 +292,7 @@
             "name": "North End",
             "map_filename": "northEnd.jpeg",
             "total_spaces": 150,
-            "comments": "Student Parking",
+            "comments": "Resident and Commuter Parking",
             "other_attributes": {
                 "security_cameras": true,
                 "handicap_spots": true
