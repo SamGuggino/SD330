@@ -44,12 +44,12 @@
     for (let i = 0; i < data['parking_lots'].length; i++) {
         let lot = data['parking_lots'][i];
 
-        htmlString += "<h2><hr><p>Lot: " + "<a href='spots.html?lot=" + encodeURIComponent(lot['name']) + "'>" + lot['name'] + "</a> </h3>";
-        htmlString += "Comments: " + lot['comments'];
+        htmlString += "<h2><hr><p>Lot: " + "<a href='spots.html?lot=" + encodeURIComponent(lot["name"]) + "'>" + lot["name"] + "</a> </h3>";
+        htmlString += "Comments: " + lot["comments"];
         htmlString += "<br>";
     }
 
-    document.getElementById('parking_lots').innerHTML += htmlString;
+    document.getElementById("parking_lots").innerHTML += htmlString;
 
 </script>
 <footer>

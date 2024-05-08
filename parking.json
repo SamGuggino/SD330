@@ -14,85 +14,85 @@
                     "number": 1,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 2,
                     "type": "Faculty/Staff",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:00:00"
                 },
                 {
                     "number": 3,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 4,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T08:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 5,
                     "type": "Resident",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 6,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 7,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:15:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 8,
                     "type": "Resident",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 9,
                     "type": "Commuter",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 10,
                     "type": "Commuter",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 11,
                     "type": "Commuter",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:45:00"
                 },
                 {
                     "number": 12,
                     "type": "Commuter",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 }
             ]
         },
@@ -111,84 +111,84 @@
                     "type": "Visitor",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T08:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 2,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 3,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 4,
                     "type": "Visitor",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:00:00"
                 },
                 {
                     "number": 5,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 6,
                     "type": "Visitor",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:15:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 7,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 8,
                     "type": "Visitor",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 9,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 10,
                     "type": "Visitor",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:45:00"
                 },
                 {
                     "number": 11,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 12,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 }
             ]
         },
@@ -206,84 +206,84 @@
                     "number": 1,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 2,
                     "type": "Faculty/Staff",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:00:00"
                 },
                 {
                     "number": 3,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 4,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 5,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T08:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 6,
                     "type": "Resident",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 7,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 8,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:15:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 9,
                     "type": "Resident",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 10,
                     "type": "Commuter",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 11,
                     "type": "Commuter",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 12,
                     "type": "Commuter",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:45:00"
                 }
             ]
@@ -303,84 +303,84 @@
                     "type": "Student",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T08:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 2,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 3,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 4,
                     "type": "Student",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:00:00"
                 },
                 {
                     "number": 5,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 6,
                     "type": "Student",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:15:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 7,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 8,
                     "type": "Student",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 9,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 10,
                     "type": "Student",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:45:00"
                 },
                 {
                     "number": 11,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 12,
                     "type": "Student",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 }
             ]
         },
@@ -399,20 +399,20 @@
                     "type": "Faculty/Staff",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T08:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 2,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 3,
                     "type": "Faculty/Staff",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:00:00"
                 },
                 {
@@ -420,63 +420,63 @@
                     "type": "Faculty/Staff",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:15:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 5,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 6,
                     "type": "Commuter",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 7,
                     "type": "Commuter",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 8,
                     "type": "Resident",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:45:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 9,
                     "type": "Resident",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 10,
                     "type": "Resident",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T10:00:00"
                 },
                 {
                     "number": 11,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 12,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 }
             ]
         },
@@ -495,27 +495,27 @@
                     "type": "Faculty/Staff",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:30:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 2,
                     "type": "Faculty/Staff",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T08:45:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 3,
                     "type": "Faculty/Staff",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 4,
                     "type": "Faculty/Staff",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T09:30:00"
                 },
                 {
@@ -523,20 +523,20 @@
                     "type": "Faculty/Staff",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:45:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 6,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 7,
                     "type": "Visitor",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T10:00:00"
                 },
                 {
@@ -544,34 +544,34 @@
                     "type": "Visitor",
                     "status": "Filled",
                     "filled_datetime": "2024-04-29T09:15:00",
-                    "reserved_datetime": ""
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 9,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 10,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 11,
                     "type": "Visitor",
                     "status": "Available",
-                    "filled_datetime": "",
-                    "reserved_datetime": ""
+                    "filled_datetime": "NA",
+                    "reserved_datetime": "NA"
                 },
                 {
                     "number": 12,
                     "type": "Visitor",
                     "status": "Reserved",
-                    "filled_datetime": "",
+                    "filled_datetime": "NA",
                     "reserved_datetime": "2024-04-29T11:00:00"
                 }
             ]

@@ -37,22 +37,23 @@
 		window.location.href = page;
 	}
 
-	let htmlString = "<p> Fetching file: samguggino.github.io/SD330/parking.json";
-	htmlString += "<br> Loading into: 'data' multi-dimensional object (array) ";
+	let htmlString = " ";
+	//htmlString += "<br> Loading into: "data" multi-dimensional object (array) ";
 
 	async function fetchData() {
 		const response = await fetch("https://samguggino.github.io/SD330/parking.json");
 		const data = await response.json();
 
-		for (let i = 0; i < data['parking_lots'].length; i++) {
-			let lot = data['parking_lots'][i];
+		for (let i = 0; i < data["parking_lots"].length; i++) {
+			let lot = data["parking_lots"][i];
 
-			htmlString += "<hr><p>Lot: " + "<a href='space.html?lot=" + encodeURIComponent(lot['name']) + "'>" + lot['name'] + "</a> ";
-			htmlString += "<p>Total spaces = " + lot['total_spaces'] + " </p>";
-			htmlString += "<p>Comments: " + lot['comments'] + " </p>";
-			htmlString += "<p>Map: <br> <img src=" + lot['map_filename'] + " alt=" + lot['map_filename'] + ">";
+			htmlString += "<hr><p>Lot: " + "<a href='space.html?lot=" + encodeURIComponent(lot["name"]) + "'>" + lot["name"] + "</a> ";
+			htmlString += "<p>Total spaces = " + lot["total_spaces"] + " </p>";
+			htmlString += "<p>Attributes: " + lot["other_attributes"] + " </p>";
+			htmlString += "<p>Map: <br> <img src=" + lot["map_filename"] + lot["map_filename"] + ">";
+
 		}
-		document.getElementById('parkingLots').innerHTML = htmlString;
+		document.getElementById("parkingLots").innerHTML = htmlString;
 	}
 
 	fetchData();
@@ -62,7 +63,7 @@
 		return urlParams.get(name);
 	}
 
-	const lotName = getQueryParam('lot');
+	const lotName = getQueryParam("lot");
 	async function fetchParkingLotDetails() {
 		const response = await fetch("https://samguggino.github.io/SD330/parking.json");
 		const data = await response.json();
@@ -70,22 +71,22 @@
 		const selectedLot = data.parking_lots.find(lot => lot.name === lotName);
 
 		if (selectedLot) {
-			const parkingLotDetails = document.getElementById('parkingLotDetails');
+			const parkingLotDetails = document.getElementById("parkingLotDetails");
 			parkingLotDetails.innerHTML = `
         <h2>${selectedLot.name}</h2>
-		<p><h3>Map: </h3><br> <img src="${selectedLot.map_filename}" alt="${selectedLot.map_filename}"></p>
+		<p><h3>Map: </h3><br> <img src="${selectedLot.map_filename}"></p>
         <p><h3>Total spaces: ${selectedLot.total_spaces}</h3></p>
-        <h3>Spaces In This Lot</h3>
+        <h3>Spaces 1-12 in Lot:</h3>
 		<hr></hr>
         <ul>
             ${selectedLot.spaces.map(space => `
                 <p>Space Number: ${space.number} <br> Type: ${space.type} <br> Status: ${space.status} <br> Filled Since: ${space.filled_datetime} <br> Reserved Since: ${space.reserved_datetime}</p><hr>
-                 `).join('')}
+                 `).join("")}
         </ul>
         `;
 		} else {
-			const parkingLotDetails = document.getElementById('parkingLotDetails');
-			parkingLotDetails.innerHTML = '<p>Lot not found.</p>';
+			const parkingLotDetails = document.getElementById("parkingLotDetails");
+			parkingLotDetails.innerHTML = "<p>Lot not found.</p>";
 		}
 	}
 
