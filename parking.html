@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="styles.css">
+    <title>Marist Parking App</title>
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="maristLogo.png">
+		<h1>Marist Parking</h1>
+	</header>
+
+	<div class="menu_bar">
+		<ul>
+			<li><a href="404.html">Login</a></li>
+			<li><a href="404.html">About</a></li>
+			<li><a href="404.html">Contact Us</a></li>
+			<li><a href="404.html">Learn More</a></li>
+            <li><a href="404.html">Reserve a Spot</a></li>
+			<li><a href="404.html">Pay a Ticket</a></li>
+		</ul>
+	</div>
+    <h2>Explore available parking lots and spaces.</h2>
+
+
+    <h2 style="text-align: center;"> Parking Lots</h2>
+
+    <main>
+        <p id="parking_lots"></p>
+    </main>
+
+
+</body>
+
+<script type="module">
+    let htmlString = "<p><hr>";
+
+    const response = await fetch("https://samguggino.github.io/SD330//parking.json");
+    const data = await response.json();
+
+    for (let i = 0; i < data['parking_lots'].length; i++) {
+        let lot = data['parking_lots'][i];
+
+        htmlString += "<h2><hr><p>Lot: " + "<a href='spots.html?lot=" + encodeURIComponent(lot['name']) + "'>" + lot['name'] + "</a> </h3>";
+        htmlString += "Comments: " + lot['comments'];
+        htmlString += "<br>";
+    }
+
+    document.getElementById('parking_lots').innerHTML += htmlString;
+
+</script>
+<footer>
+	<hr>
+    &copy; S.Guggino 5/1/2024
+</footer>
+</body>
+
+</html>

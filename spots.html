@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport">
+	<link rel="stylesheet" href="styles.css">
+	<title>Marist Parking App</title>
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="maristLogo.png">
+		<h1>Marist Parking</h1>
+	</header>
+
+	<div class="menu_bar">
+		<ul>
+			<li><a href="404.html">Login</a></li>
+			<li><a href="404.html">About</a></li>
+			<li><a href="404.html">Contact Us</a></li>
+			<li><a href="404.html">Learn More</a></li>
+			<li><a href="404.html">Reserve a Spot</a></li>
+			<li><a href="404.html">Pay a Ticket</a></li>
+		</ul>
+	</div>
+
+	<a href="parking.html">Home</a> >> Spaces
+	<main>
+		<div id="parkingLotDetails"></div>
+	</main>
+
+
+</body>
+<script>
+	function redirectTo(page) {
+		window.location.href = page;
+	}
+
+	let htmlString = "<p> Fetching file: samguggino.github.io/SD330/parking.json";
+	htmlString += "<br> Loading into: 'data' multi-dimensional object (array) ";
+
+	async function fetchData() {
+		const response = await fetch("https://samguggino.github.io/SD330/parking.json");
+		const data = await response.json();
+
+		for (let i = 0; i < data['parking_lots'].length; i++) {
+			let lot = data['parking_lots'][i];
+
+			htmlString += "<hr><p>Lot: " + "<a href='space.html?lot=" + encodeURIComponent(lot['name']) + "'>" + lot['name'] + "</a> ";
+			htmlString += "<p>Total spaces = " + lot['total_spaces'] + " </p>";
+			htmlString += "<p>Comments: " + lot['comments'] + " </p>";
+			htmlString += "<p>Map: <br> <img src=" + lot['map_filename'] + " alt=" + lot['map_filename'] + ">";
+		}
+		document.getElementById('parkingLots').innerHTML = htmlString;
+	}
+
+	fetchData();
+
+	function getQueryParam(name) {
+		const urlParams = new URLSearchParams(window.location.search);
+		return urlParams.get(name);
+	}
+
+	const lotName = getQueryParam('lot');
+	async function fetchParkingLotDetails() {
+		const response = await fetch("https://samguggino.github.io/SD330/parking.json");
+		const data = await response.json();
+
+		const selectedLot = data.parking_lots.find(lot => lot.name === lotName);
+
+		if (selectedLot) {
+			const parkingLotDetails = document.getElementById('parkingLotDetails');
+			parkingLotDetails.innerHTML = `
+        <h2>${selectedLot.name}</h2>
+		<p><h3>Map: </h3><br> <img src="${selectedLot.map_filename}" alt="${selectedLot.map_filename}"></p>
+        <p><h3>Total spaces: ${selectedLot.total_spaces}</h3></p>
+        <h3>Spaces In This Lot</h3>
+		<hr></hr>
+        <ul>
+            ${selectedLot.spaces.map(space => `
+                <p>Space Number: ${space.number} <br> Type: ${space.type} <br> Status: ${space.status} <br> Filled Since: ${space.filled_datetime} <br> Reserved Since: ${space.reserved_datetime}</p><hr>
+                 `).join('')}
+        </ul>
+        `;
+		} else {
+			const parkingLotDetails = document.getElementById('parkingLotDetails');
+			parkingLotDetails.innerHTML = '<p>Lot not found.</p>';
+		}
+	}
+
+	fetchParkingLotDetails();
+</script>
+
+<footer>
+	<hr>
+	&copy; S.Guggino 5/1/2024
+</footer>
+
+</html>
