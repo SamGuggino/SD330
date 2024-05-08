@@ -11,11 +11,15 @@ body {
     background-color: #f5f5f5;
 }
 
+body a {
+    color: #ff0000;
+}
+
 .logo {
-    height: 125px;
+    height: 105px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
 }
 
 .menu_bar {
