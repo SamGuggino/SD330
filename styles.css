@@ -28,6 +28,7 @@ body a {
     border-width: 3px;
     background-color: white;
     padding: 3px;
+    text-align: center;
 }
 
 .menu_bar ul{
